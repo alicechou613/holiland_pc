@@ -1,0 +1,114 @@
+html,body{font-size:13px; }
+#hr1,#hr2{width:45%;border-top:1px dashed #d5d5d5}
+#phone,#code,#note_code,#upwd,#reupwd{width:208px;height:38px;padding:0px 0px 0px 10px;border-width:1px}
+a{
+    color:#989898;
+    margin:0 auto;
+}
+a:hover{color:dodgerblue;text-decoration:underline;}
+
+.login>div{
+    width:996px;
+    margin:0 auto 20px;
+    padding:45px 0 55px;
+}
+.table{
+    background-color:#ededed ;
+    color:#626262;
+    font-size:14px;
+    margin:0 auto;
+    border:none;
+    border-spacing:0px;
+}
+.table>tr{
+    height:40px;
+    width:310px;
+    line-height: 40px;
+    margin-bottom:10px;
+}
+td{
+    border-top: 5px solid #fff;
+}
+.td_title{
+    border-right: 5px solid #fff;
+    height:40px;
+    width:51px;
+    padding:0 8px 0 8px;
+    text-align: center;
+}
+.td_input{
+    width:208px;
+    padding-left: 10px;
+}
+input{
+    background-color:#ededed ;
+    width:224px;
+    height:38px;
+    font-size: 13px;
+    color:#626262;
+}
+.submit{
+    background-color: #fff;
+    text-align: center;
+}
+.submit>a:first-child{
+    display: inline-block;
+    height:40px;
+    width: 190px;
+    line-height: 40px;
+    background-color:#87D0E3;
+    font-size:16px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration:none;
+}
+.submit>a:last-child{
+    display: inline-block;
+    height:40px;
+    line-height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    background-color:#ededed;
+    color: rgb(98,98,98);
+    font-size:13px;
+}
+.submit>a:last-child:hover{
+    color:#87D0E3;
+    text-decoration:none;
+}
+.prompt{
+    background-color: #ffffff;
+    font-size:13px;
+    width£º180px;
+    /*display: none;*/
+}
+.prompt>span{
+    padding: 6px 20px 10px 40px;
+    background-image: url(../images/icon/bj_3.png);
+    background-repeat: no-repeat;
+    color:red;
+}
+.promptcenter{
+    background-color: #ffffff;
+    width:180px;
+}
+.td_input_upwd>input{
+    float: left;
+    width: 128px;
+    padding-left: 10px;
+    line-height: 39px;
+    font-size: 14px;
+    color:#626262;
+}
+.td_input_upwd>a{
+    display: inline-block;
+    float:right;
+    height:39px;
+    line-height: 39px;
+    color:rgb(98,98,98);
+    padding-right: 10px;
+    font-size: 13px;
+}
+.td_input_upwd>a:hover{
+    color:#87D0E3;
+}

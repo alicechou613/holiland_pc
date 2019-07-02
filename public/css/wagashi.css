@@ -1,0 +1,131 @@
+.content{
+    margin:0 auto;
+    width:996px;
+}
+.div_top{
+    width:996px;height: 485px;
+}
+.carousel{
+    float:left;
+    width:485px;height:485px;
+}
+.div_carousel{
+    position: relative;
+    height:485px;
+}
+.carousel_inner{
+    width:100%;
+    border:1px solid #ddd;
+}
+.div_img{width:100%}
+.img_carousel{
+    width:100%;
+}
+.div_detail{
+    width:485px;
+    height:485px;
+    float:right;
+    overflow: hidden;
+}
+.img_detail{
+    display: block;
+    width:485px;
+    height:290px;
+    margin-bottom: 10px;
+}
+h2{
+    color:#2093cc;
+    font-size: 20px;
+}
+.div_title{
+    float: left;
+    width: 300px;
+    margin-top:12px;
+}
+.h2_title{
+    height:30px;
+    width: 100%;
+}
+.h2_price{
+    float:right;
+    width: 130px;
+    margin-top:33.4px;
+    text-align: right;
+}
+.delivery{
+    margin-top:1px;
+}
+.div_btn{
+    height:50px;
+    width:235px;
+    /*padding-left:20px;*/
+    margin:12px 12px 0 0;
+    background-color: #87d0e3;
+    text-align: center;
+    line-height: 50px;
+}
+.btn_left{
+    float:left;
+}
+.btn_right{
+    float:right;
+    margin-right:0px;
+}
+.a_btn{
+    color:#fff;
+}
+.btn_yellow{
+    background-color: #ffff00;
+}
+.a_buy{
+    color:#626262;
+}
+.div_details{
+    width:996px;
+    clear:both;
+    margin-top:18px;
+    margin-bottom: 20px;
+}
+.img_details{
+    width:996px;
+    margin-top: -3px;
+}
+.a_prev{
+    display: block;
+    position: absolute;
+    width: 23px;height:25px;
+    background-image: url(../images/icon/bj_4.png);
+    background-repeat: no-repeat;
+
+}
+.a_prev_left{
+    background-position: 0px -201px;
+    bottom:6px;
+    left:15px;
+}
+.a_prev_right{
+    background-position: 0px -165px;
+    bottom:6px;
+    right:15px;
+}
+.carousel_indicatos{
+
+    position: absolute;
+    /*left:45%;*/
+    display: flex;
+    justify-content:center;
+    bottom:10px;
+    left:45%;
+
+}
+.carousel_indicatos li{
+    bottom:5px;
+    display: block;
+    width: 10px;height: 10px;
+    border:1px solid #626262;
+    border-radius:50%;
+    margin: 10px 5px;
+}
+.li_active{
+    background-color:#626262 ;
+}

@@ -1,0 +1,55 @@
+.div_list{
+  width: 996px;
+  margin:0 auto;
+}
+.div_div_list{
+  width: 996px;
+  margin: 0 auto 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.div_product{
+  width: 325px;height: 325px;
+  position: relative;
+  margin-top: 10.5px;
+}
+.a_img_product{
+  width: 325px;height: 270px;
+  position: absolute;
+  background-image: url(../images/ceshi/953_G_1548877338289.jpg);
+  background-position:top left;
+}
+.a_img_product:hover{
+  transform: scale(1.05);
+  transition: 2s;
+}
+.a_title_product{
+  display: block;
+  position: absolute;
+  width: 325px;height: 55px;
+  background: #87d0e3;
+  bottom: 0;left: 0px;
+  color: #fff;
+}
+.p_product{
+  display: block;
+  height: 28px;
+  padding-left: 15px;
+  line-height: 35px;
+}
+.p_summary_product{
+  display: block;
+  width: 205px;height: 15px;
+  padding:3px 0 0 15px;
+  font-size: 12px;
+  float: left;
+
+}
+.b_price_product{
+  display: block;
+  width: 80px;height: 20px;
+  padding-right: 20px;
+  float: right;
+  text-align: right;
+}

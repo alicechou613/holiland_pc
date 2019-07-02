@@ -1,0 +1,24 @@
+.p_text{
+  font-family: 微软雅黑;
+  color: rgb(98, 98, 98);
+  line-height: 23.4px;
+}
+.p_text_indent{
+  text-indent: 2em;
+}
+.p_text_nbsp{
+  line-height: 23.4px;
+}
+div .p_blue{
+  color:rgb(107, 196, 223);
+  text-indent: 6em;
+}
+.p_city{
+  display: block;
+  font-family: 微软雅黑;
+  padding: 20px 0 30px;
+  text-indent: 2em;
+  border-top: 1px solid #c1bfc0;
+  color: rgb(98, 98, 98);
+  line-height: 23.4px;
+}

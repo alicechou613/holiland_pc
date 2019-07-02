@@ -1,0 +1,138 @@
+.div_help{
+  width: 996px;
+  margin:0 auto;
+  clear: both;
+  font-size: 13px;
+}
+.div_div_help{
+  width: 976px;height: 25px;
+  padding-left: 20px;
+  background-color: #ededed;
+  line-height: 25px;
+  float:left;
+}
+.p_help{
+  float: left;
+}
+.i_help{
+  width: 22px;height: 14px;
+  margin: 6px 6px;
+  float: left;
+  background-image: url(../images/icon/bj_4.png);
+  background-position:96px -83px;
+}
+#divhelp:focus{
+  background-position: 121px -83px;
+}
+.div_detail{
+  display: none;
+  width: 996px;height:97.44px;
+  margin: 0 auto;
+  clear: both;
+  padding:15px 0px;
+  color: #626262;
+  background-color: #ededed;
+}
+.open{
+  display: block;  
+}
+.div_title{
+  float: left;
+  width: 155px;
+  padding-left: 11px;
+
+}
+.i_help_title{
+  float: left;
+  background-image: url(../images/index/bj3.png);
+  background-repeat: no-repeat;
+  background-position: 2px 1px;
+  width: 23px;height: 23px;
+  padding-right: 5px;
+  vertical-align: middle;
+  font-style: italic;
+}
+.span_title_help{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.a_help{
+  display: block;
+  width: 100px; height:20px;
+  padding-left: 35px;
+  text-align: left;
+  color:#626262;
+}
+.a_help:hover{
+  text-decoration: underline;
+}
+.div_summary{
+  width: 996px;height: 178.88px;
+  margin:10px auto;
+  color:#898989;
+  font-size: 12px;
+  line-height: 20px;
+  border-top: 1px solid #d5d5d5;
+}
+.div_copyright{
+  width: 996px;height: 59.52px;
+  margin: 10px 0;
+}
+.div_phone{
+  width: 996px;height: 19.84px;
+  margin: 10px 0;
+}
+.div_address{
+  width: 996px;height: 59.52px;
+  margin: 10px 0;
+}
+.div_followus{
+  float: right;
+  width: 90px;
+  position: relative;
+  font-size: 13px;
+}
+.h4_followus{
+  text-align: right;
+  font-weight: normal;
+}
+.a_followus{
+  float: right;
+  position: absolute;
+  width: 31px;height: 35px;
+  background-image: url(../images/index/bj_2.png);
+  background-repeat: no-repeat;
+  background-position: -1px -58px;
+  margin: 5px 0 0 13px;
+  right: 33px;
+}
+.div_followus>div{
+  border-radius:5px;
+  position: absolute;
+  left:-100px;
+  top:-200px;
+  border:1px solid #ccc;
+  background-color: #fff;
+  display: none;
+  z-index: 1000;
+}
+.div_followus>div>p{
+  display: block;
+  border-bottom: 1px solid #ccc;
+  height:25px;
+  padding-left: 15px;
+  margin:10px 0;
+  color:#898989;
+}
+.div_followus>div>img{
+  width:150px;
+  height:150px;
+  margin:5px 15px;
+}
+.div_followus:hover.div_followus>div{
+  display: block;
+}
+.openimg{
+  background-position:123px -83px;
+}

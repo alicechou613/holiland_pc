@@ -1,0 +1,15 @@
+.p_text_shoppingguide{
+    display: block;
+    font-family: 微软雅黑;
+    line-height: 23.4px;
+    color: rgb(98, 98, 98);
+  }
+ 
+  .p_txt{
+      display: block;
+      margin: 5px 0 5px 24px; 
+  }
+  .p_txt2{
+    display: block;
+    margin: 5px 0; 
+}

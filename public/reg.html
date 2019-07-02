@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>用户中心_好利来蛋糕官网__蛋糕3小时急送达__口感不满即可退货</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reg.css">
+	<link rel="stylesheet" href="css/footer.css">
+	
+	  <style >
+
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <!-- 用户注册+线 -->
+		<div class="" id="head">
+			<span class="head_line"></span>
+			<span class="title">用户注册</span>
+			<span class="head_line head_line_right"></span>
+		</div>
+      <div class="integral">
+        <span id="heart"></span>
+        <span>注册赠送积分：100</span>
+      </div>
+      <div class="reg">
+		<div>
+			<table class="table">
+				<tr>
+					<td class="promptcenter"></td>
+					<td class="td_title">手机号</td>
+					<td class="td_input">
+						<input type="text" id="uname"/>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td class="td_title">验证码</td>
+					<td class="td_input">
+						<input type="password"/>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td class="td_title">短信验证码</td>
+					<td class="td_input">
+						<input type="text" class="input_code"/>
+						<a href="#" class="code">获取短信验证码</a>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td class="td_title">密码</td>
+					<td class="td_input">
+						<input type="password"/>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td class="td_title">确认密码</td>
+					<td class="td_input"></td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td colspan="2" class="checkbox">
+						<input type="checkbox"/>
+						<a href="#">我已阅读并接受“服务条款”</a>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="promptcenter"></td>
+					<td colspan="2" class="submit">
+						<a href="#">
+							注册
+						</a>
+					</td>
+					<td class="prompt">
+						<span>请输入注册手机号码</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	  </div>
+		<script src="js/jquery-1.11.3.js"></script>
+	
+        <!--<dl class="">-->
+          <!--<dt>手机号</dt>-->
+          <!--<dd><input type="text" id="phone" onfocus="phone_remind()" onblur="phone_onblur()"><p id="phone_warn"></p></dd>-->
+        <!--</dl>-->
+<!--&lt;!&ndash;       <dl class=""> &ndash;&gt;-->
+<!--&lt;!&ndash;         <dt>验证码</dt> &ndash;&gt;-->
+<!--&lt;!&ndash;         <dd><input type="text" id="code" onfocus="code_remind()" onblur="code_onblur()"><p id="code_warn"></p></dd> &ndash;&gt;-->
+<!--&lt;!&ndash;       </dl> &ndash;&gt;-->
+<!--&lt;!&ndash;       <dl class=""> &ndash;&gt;-->
+<!--&lt;!&ndash;         <dt>短信验证码</dt> &ndash;&gt;-->
+<!--&lt;!&ndash;         <dd><input type="text" id="note_code" onfocus="note_code_remind()" onblur="note_code_onblur()"><p id="note_code_warn"></p></dd> &ndash;&gt;-->
+<!--&lt;!&ndash;       </dl> &ndash;&gt;-->
+        <!--<dl class="">-->
+          <!--<dt>密码</dt>-->
+          <!--<dd><input type="password" id="upwd" onfocus="upwd_remind()" onblur="upwd_onblur()"><p id="upwd_warn"></p></dd>-->
+        <!--</dl>-->
+        <!--<dl class="">-->
+          <!--<dt>确认密码</dt>-->
+          <!--<dd><input type="password" id="reupwd" onfocus="reupwd_remind()" onblur="reupwd_onblur()"><p id="reupwd_warn"></p></dd>-->
+        <!--</dl>-->
+        <!--<dl class="">-->
+          <!--<dt</dt>-->
+          <!--<dd><input type="checkbox" id="article"><a href="#" id="aa1" hover="aa1"><label for="aa1">我已阅读并接受“服务条款”</label></a></dd>-->
+        <!--</dl>-->
+
+        <!--<button onclick="submit()">注册</button>-->
+
+      <!--</div>-->
+      <script>
+			//触发提示
+			  /* function phone_remind(){
+				    phone_warn.innerHTML='请输入注册手机号码';
+			   }
+//			function code_remind(){
+//				code_warn.innerHTML='请输入验证码';
+//			}
+//			function note_code_remind(){
+//				note_code_warn.innerHTML='请输入短信验证码';
+//			}
+
+		      function upwd_remind(){
+				     upwd_warn.innerHTML='密码必须输入6-20位字符';
+			    }
+			    function reupwd_remind(){
+				    reupwd_warn.innerHTML='请再次输入密码';
+			    }
+			//离开提示
+			    function phone_onblur(){
+				   	if(phone.value.length==11){
+				      phone_warn.innerHTML='';
+				    }else{
+
+				   phone_warn.innerHTML='请输入正确的手机号';
+				    }
+			    }
+			   function upwd_onblur(){
+				    if(upwd.value.length>=6&&upwd.value.length<=20){
+					  if(reupwd.value==upwd.value){
+				   	upwd_warn.innerHTML='两次密码输入一致';
+				  	reupwd_onblur();
+				  	}else{
+				  	upwd_warn.innerHTML='';
+				  	}
+				    }else{
+					  upwd_warn.innerHTML='密码必须输入6-20位字符，请重新输入';
+				  }
+		   	}
+       	function reupwd_onblur(){
+				   if(reupwd.value.length>=6&&reupwd.value.length<=20){
+					   if(reupwd.value==upwd.value){
+				      	reupwd_warn.innerHTML='两次密码输入一致';
+					    	upwd_onblur();
+				    	}else{
+				   	reupwd_warn.innerHTML='两次密码输入不一致';
+					 }
+			    	}else{
+					 reupwd_warn.innerHTML='密码必须输入6-20位字符，请重新输入';
+				  }
+		   	}
+
+			//提交注册信息
+			 function submit(){
+				var uphone_z=uphone.value;
+				var upwd_z=upwd.value;
+				var reupwd_z=reupwd.value;
+				var xhr=new XMLHttpRequest();
+				xhr.onreadystatechange=function(){
+					if(xhr.readyState==4&&xhr.status==200){
+						var result=xhr.responseText;
+						alert(result);
+						console.log(result);
+					}
+				}
+				xhr.open("post","http://127.0.0.1:8080/user/reg",true);
+				var formdata="uphone="+uphone_z+"&upwd="+upwd_z+"&reupwd="+reupwd_z;
+				xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				xhr.send(formdata);
+			}*/
+    </script>
+
+	<div id="footer">
+
+	</div>
+	 
+		<script src="./js/footer.js"></script>
+  </body>
+</html>

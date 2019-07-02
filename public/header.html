@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script src="./js/vue.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="div_head">
+      <a href="#" class="a_head_logo">
+        <img src="./images/index/logo.png" alt="好利来" class="img_head_logo">
+      </a>
+      <!-- 上面的地址购物车登录注册 -->
+      <div class="div_head_right">
+
+        <div class="div_head_d" id="login">
+          <!-- 注销 -->
+          <a href="javascript:;" v-if="isLogin==true" @click="logout" class="a_reg_head" v-text="`注销`"></a>
+          <!-- 注册 -->
+          <a href="reg.html" v-else @click="login" class="a_reg_head" v-text="`注册`"></a>
+          <!-- uname -->
+          <a href="javascript:;" v-if="isLogin==true" @click="logout" v-text="uname" class="a_reg_head  a_login_head"></a>
+          
+          <!-- 登录 -->
+          <a href="login.html" v-else @click="login" class="a_reg_head a_login_head" v-text="`登录`"></a>
+          <!-- 购物车 -->
+          <div class="div_trolley">
+            <a href="#" class="a_trolley">
+              <span class="span_trolley">件</span>
+              <span class="span_trolley">0</span>
+            </a>
+          </div>
+          <!-- 地址 -->
+          <div class="div_address_head">
+            <a href="#" class="a_address_head">
+              <span class="a_reg_head">北京</span>
+              <img src="./images/index/dizhi_icon.png" class="div_a_coord_head"alt="">
+            </a>
+          </div>
+          <!-- 导航栏 -->
+          <div class="div_nav">
+            <ul class="ul_nav">
+              <li class="li_nav li_nav_2">
+                <a href="">
+                  <span class="span_nav">All Products</span>
+                  <span class="span_nav">全部产品</span>
+                </a>
+              </li>
+              <li class="li_nav li_nav_2" id="li_cake">
+                <a href="">
+                  <span class="span_nav">Cake Series</span>
+                  <span class="span_nav">蛋糕系列</span>
+                  <ul class="ul_cake">
+                    <li>
+                      <a href="">
+                        经典系列
+                      </a>
+                    </li>
+                  </ul>
+                </a>
+                
+                  
+              </li>
+              <li class="li_nav li_nav_2">
+                <a href="">
+                  <span class="span_nav">Wagashi</span>
+                  <span class="span_nav ">零食糕点</span>
+                </a>
+              </li>
+              <li class="li_nav">
+                <a href="aboutus.html">
+                  <span class="span_nav">About Us</span>
+                  <span class="span_nav">关于我们</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="div_phone">
+          <img src="./images/index/phone_icon.png" alt="客服电话" class="img_phone">
+          <span class="span_phone">400-700-5999</span>
+        </div>
+        <div class="div_search">
+          <input type="text" id="search" class="input_search">
+          <img src="./images/index/search_icon.png" alt="搜索" class="img_search">
+        </div>
+      </div>
+    </div>
+    <script src="./js/header.js"></script>
+  </body>
+</html>

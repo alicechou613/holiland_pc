@@ -1,0 +1,115 @@
+html,body{color:rgb(98,98,98);
+    font-size:13px;
+    }
+.div_banner{
+    width:996px;height:450px;
+    position:relative;
+    margin:0 auto 10px;
+}
+/*.div_banner_img{*/
+    /*position: relative;*/
+    /*display: none;*/
+    /*width:100%;*/
+    /*transtion: transform 0.6s ease;*/
+    /*/!*visibility: hidden;*!/*/
+/*}*/
+.img_banner{
+    width:100%;
+    position:absolute;
+    display:block;
+}
+.active{
+    display: block;
+}
+.prev_banner,.next_banner{
+    width:15%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:450px;
+}
+.prev_banner{
+    left:0;
+}
+.next_banner{
+    right: 0;
+}
+.prev_banner_icon,.next_banner_icon{
+    display:block;
+    position:relative;
+    width:37px;height: 39px;
+    background-image: url(../images/icon/bj_4.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    top:205.5px;
+}
+.prev_banner_icon{
+    background-position: -2px 0px;
+    left:20px;
+}
+.next_banner_icon{
+    background-position: -2px -41px;
+    right:-92.4px;
+}
+
+.div_series{
+  width:996px;height:270px;
+  display:flex;
+  margin:0 auto 10px;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.a_img_series{
+  width:325px;height:220px;
+  display:block;
+    overflow: hidden;
+}
+.img_series{
+  width:325px;height:220px;
+}
+.img_series:hover{
+    transform:scale(1.07);
+    width:325px;height:220px;
+    transition: 1s;
+}
+.a_series{
+  width:325px;height:50px;
+  display:block;
+  background:#87d0e3;
+}
+.p_series{
+  color:#fff;
+  padding-left: 15px;
+}
+.p_chinsesseries{
+  margin-top:8px;
+}
+.div_video{
+  width: 996px;height: 420px;
+  margin:10px auto;
+}
+.img_video{
+  width:240px;height:420px;
+  float: left;
+}
+.video_video{
+  width:745px;height:420px;
+  float: right;
+}
+/*����ͷ��*/
+/*iframe{width:100%}*/
+/*@media screen and (min-width:992px){*/
+    /*.my_header{height:13rem;}*/
+/*}*/
+/*@media screen and (max-width:991px){*/
+    /*.my_header{height:25rem;}*/
+/*}*/
+
+.holiland_header{
+    height:148px;
+    width: 1525px;
+}
+.my_footer{
+    height:352px;
+    width:1519px;
+}

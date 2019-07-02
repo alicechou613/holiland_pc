@@ -1,0 +1,45 @@
+.div_aside_help{
+    width:210px;
+    padding-bottom:20px;
+    float:left;
+    font-family: "???ик????";
+}
+#help h3{
+    display: block;
+    width:186px;
+    padding:12px 0 10px 20px;
+    margin:1px 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: 7px 18px;
+}
+#help ul{
+    list-style-image: url(../images/icon/san_j.gif);
+    list-style-position: inside;
+}
+.h3_title_close{
+    background-image:url("../images/icon/jia.jpg");
+}
+.h3_title_open{
+    background-image:url("../images/icon/jian.jpg");
+}
+
+
+.ul_guide_open{
+    display: block;
+}
+.ul_guide_close{
+    display:none;
+}
+.icon_jia:active {
+    background-image:url("../images/icon/jian.jpg");
+}
+
+.li_help{
+    line-height: 24px;
+    margin-bottom: 1px;
+    padding-left: 40px;
+}
+.a_help{
+    padding-left: 3px;
+    color:#626262;
+}
