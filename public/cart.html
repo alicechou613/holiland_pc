@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物流程_好利来蛋糕官网__蛋糕3小时急送达__口感不满即可退货</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+    <div class="div_w">
+        <div id="head">
+            <span class="head_line"></span>
+            <span class="title">购物车</span>
+            <span class="head_line head_line_right"></span>
+        </div>
+        <div class="div_body1" id="table1">
+            <table>
+                <tr>
+                    <th>商品名称</th>
+                    <th>属性</th>
+                    <th>积分</th>
+                    <th>单价</th>
+                    <th>购买数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                        <img src="./images/ceshi/953_P_1548877338626.jpg" alt="">
+                        <a href="">芝麻酥佳斯柯达sahd奥术大师鸡死及袋</a>    
+                    </td>
+                    <td>20cm-酸奶提子</td>
+                    <td>39积分</td>
+                    <td>￥39.00</td>
+                    <td class="td_btn">
+                        <button @click="minus">-</button>
+                        <input type="text" v-model="count" style="margin-left: 8px;"/>
+                        <button @click="add" style="margin-left: 8px;">+</button>
+                    </td>
+                    <td>￥39.00</td>
+                    <td>
+                        <a href="" style="padding-bottom: 5px;">删除</a>   
+                        <a href="">放入收藏夹</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="div_body2">
+            <div>
+                <p>可选好利来专属附加产品<span></span></p>
+                <a href="">继续购物</a>
+                <div>
+                    <table style="display: none;">
+                        <tr>
+                            <th>商品信息</th>
+                            <th>单价</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="div_body3">
+            <div>
+                <a href="#">全选</a>
+                <a href="#">×删除选中商品</a>
+            </div>
+            <div>
+                <span>总计:</span>
+                <span>￥4545.00</span>
+                <a>下一步</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

@@ -95,6 +95,7 @@ html,body{color:rgb(98,98,98);
 .video_video{
   width:745px;height:420px;
   float: right;
+  outline:none;
 }
 /*����ͷ��*/
 /*iframe{width:100%}*/
